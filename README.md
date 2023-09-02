@@ -54,7 +54,7 @@ GitHub Actions offers you a world of possibilities for streamlining your develop
     - Actions can be used in Workflow files to define the steps and automate common processes.
 
 5. 🏃 **Runner:**
-    - A Runner is a server or virtual machine that executes GitHub Actions workflows.
+    - A Runner is a server or virtual machine that executes GitHub Actions workflows, i.e. `runs-on: ubuntu-latest`.
     - GitHub-hosted runners are provided by GitHub and come pre-configured with various software tools and environments.
     - Self-hosted runners are machines you set up and manage yourself, allowing for custom configurations.
     - Runners listen for new workflow jobs and execute them on the designated machine.
@@ -65,7 +65,7 @@ GitHub Actions offers you a world of possibilities for streamlining your develop
     - They can be specific actions within a repository, such as pushes to branches, pull requests, or new issues.
     - Workflow runs can be triggered by external events like scheduled workflows, repository dispatch events, and webhooks.
     - Events define when a workflow should run and provide context to determine which jobs and steps to execute.
-    - You can customize workflows to respond to various events based on your project's needs.
+    - You can customize workflows to respond to various events based on your project's needs: `on: [event_1, event_2, ...]`
 
   Runners and events are fundamental to the functioning of GitHub Actions. Runners execute workflows on designated machines, while events determine when and why those workflows should run. Understanding these concepts helps you orchestrate your automation effectively! 🤖🎉
 
