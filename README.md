@@ -30,7 +30,7 @@ GitHub Actions offers you a world of possibilities for streamlining your develop
 
 ### GitHub Actions: Concepts and Components 🔍 
 
-![image](https://github.com/endybits/github-actions-from-scratch/assets/22806426/e3eff01a-19ab-4478-b207-fac50f02816f)
+![image](https://github.com/endybits/github-actions-from-scratch/assets/22806426/3210c97f-b41d-479c-923e-d90d167d1111)
 
 
 1. 🌟 **Workflow:**
@@ -52,5 +52,21 @@ GitHub Actions offers you a world of possibilities for streamlining your develop
     - Actions are reusable units of code that perform specific tasks.
     - They can be created by you or sourced from the GitHub Marketplace and the Actions community.
     - Actions can be used in Workflow files to define the steps and automate common processes.
+
+5. 🏃 **Runner:**
+    - A Runner is a server or virtual machine that executes GitHub Actions workflows.
+    - GitHub-hosted runners are provided by GitHub and come pre-configured with various software tools and environments.
+    - Self-hosted runners are machines you set up and manage yourself, allowing for custom configurations.
+    - Runners listen for new workflow jobs and execute them on the designated machine.
+    - They communicate with GitHub to report job progress and receive instructions.
+
+6. 🎯 **Events:**
+    - Events are triggers that initiate the execution of a GitHub Actions workflow.
+    - They can be specific actions within a repository, such as pushes to branches, pull requests, or new issues.
+    - Workflow runs can be triggered by external events like scheduled workflows, repository dispatch events, and webhooks.
+    - Events define when a workflow should run and provide context to determine which jobs and steps to execute.
+    - You can customize workflows to respond to various events based on your project's needs.
+
+  Runners and events are fundamental to the functioning of GitHub Actions. Runners execute workflows on designated machines, while events determine when and why those workflows should run. Understanding these concepts helps you orchestrate your automation effectively! 🤖🎉
 
   
